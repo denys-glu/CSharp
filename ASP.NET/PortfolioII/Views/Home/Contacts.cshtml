@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <div class="col">
+    <h1 class="display-4">Contacts</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <form action="/success" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="text" placeholder="Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+                <div class="form-group col-md-6">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4"></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="Submit">Submit</button>
+        </form>
+    </div>
+</div>
